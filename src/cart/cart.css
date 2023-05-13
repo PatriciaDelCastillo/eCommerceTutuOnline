@@ -1,0 +1,32 @@
+.item_cart {
+  /*border: 1px solid red;*/
+  color: #003459;
+  width: 20px;
+  height: 20px;
+}
+.item_cart:hover {
+  color: #4cd5de;
+}
+
+.cart .item-total {
+  border-radius: 100%;
+  position: relative;
+  bottom: 27px;
+  left: 25px;
+  color: white;
+  background-color: #003459;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 0.4px 5px;
+}
+.img {
+  height: 50px;
+  width: 50px;
+}
+.cartDetalle{
+  position: relative;
+  top:250px;
+}

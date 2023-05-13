@@ -1,0 +1,36 @@
+.linkText {
+    /* border: 1px solid orange; */
+     color: black;
+     font-size: 15px;
+     font-weight: 500;
+     text-decoration: none;
+     background-color: #7cc2f7;
+     border-radius: 5%;
+   }
+   .linkCount {
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+  }
+  .containerBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .botones {
+    border-radius: 25%;
+  
+    margin: 0 70px;
+  }
+  .botonAdd {
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+   
