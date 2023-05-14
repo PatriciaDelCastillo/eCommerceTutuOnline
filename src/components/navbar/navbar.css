@@ -24,7 +24,7 @@
   }
   #dropdown {
     color: #0d1318 !important;
-    margin-top: -6px;
+    /* margin-top: -6px; */
   }
   #dropdown:hover {
     color: #4cd5de;

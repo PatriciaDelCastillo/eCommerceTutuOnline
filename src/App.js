@@ -26,6 +26,7 @@ function App() {
           <Route path="/producto/:id" element={<ItemDetalleContainer />} />
           
           <Route path="/cart" element={<CartDetalle greeting={"Carrito"} />} />
+          <Route path="*" element={<h2>Eror 404, Volvamos...</h2>} />
         </Routes>
       </CartContextProvider>
     </>

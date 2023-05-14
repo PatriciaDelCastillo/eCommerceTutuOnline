@@ -16,9 +16,9 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ul ">
-              <NavLink className="links" to="/">
+              <Nav.Link className="links" to="/">
                 Home
-              </NavLink>
+              </Nav.Link>
 
               <NavDropdown title="Catalogo" id="dropdown">
                 {categories.map((item) => (

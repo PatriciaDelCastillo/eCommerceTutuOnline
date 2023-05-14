@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyARJS_PElr7uRXVf8Imd9cs_XBtXs88d94",
-  authDomain: "tutu-online.firebaseapp.com",
-  projectId: "tutu-online",
-  storageBucket: "tutu-online.appspot.com",
-  messagingSenderId: "671338897208",
-  appId: "1:671338897208:web:b0f94323c8a70da5dfabcd"
+  apiKey: process.env.REACT_APP_apiKey,
+  authDomain:process.env.REACT_APP_autoDomain,
+  projectId: process.env.REACT_APP_projectId,
+  storageBucket: process.env.REACT_APP_storageBucket,
+  messagingSenderId: process.env.REACT_APP_messagingSenderId,
+  appId: process.env.REACT_APP_appId
 };
 
 const app = initializeApp(firebaseConfig);
